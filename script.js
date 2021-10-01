@@ -6,12 +6,14 @@ const dummyTransactions =[
 ]
 
 const addTransactionIntDOM = transaction => {
-const operator = transaction.amount < 0 ? '-' : '+'
+    const operator = transaction.amount < 0 ? '-' : '+'
+    console.log(operator);
+
+    const operator = transaction.amount < 0 ? '-' : '+'
 console.log(operator);
 
-</*li class="minus">
+    <li class="minus">
     salario <span>-$500</span><button class="delete-btn">x</button>
-</li> */}
+</li>
 }
 
-addTransactionIntDOM(dummyTransactions)

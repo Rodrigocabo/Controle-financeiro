@@ -25,6 +25,7 @@ body {
   width: 350px;
   border: 5px rgb(34, 33, 33) solid;
   background-color: rgba(22, 22, 22, 0);
+  border-image: url(Borda\ \(1\).png);
 
 
 }
